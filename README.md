@@ -25,3 +25,27 @@ App should now be running on localhost:3000
 For dependencies refer Package.json
 ## For Testing (Postman)
 Postman extension can be used for testing !
+
+# Available API Routes
+
+## User Routes
+
+| Routes | Description |
+| ------ | ----------- |
+| `POST/user/signup` | Sign up a new user |
+| `POST/user/login` | Login the user with Email and Password |
+
+## Products Routes
+
+| Routes | Description |
+| ------ | ----------- |
+| `GET/products/` | Get list of all products |
+
+## Cart Routes
+
+| Routes | Description |
+| ------ | ----------- |
+| `POST/add/:product` | Add Products to the cart |
+| `POST/update/:product` | Update the products in the cart such as increase quantity, decrease quntity etc. |
+| `POST/clear` | Clear the items in the cart |
+
