@@ -45,7 +45,7 @@ Postman extension can be used for testing !
 
 | Routes | Description |
 | ------ | ----------- |
-| `POST/add/:product` | Add Products to the cart |
-| `POST/update/:product` | Update the products in the cart such as increase quantity, decrease quntity etc. |
-| `POST/clear` | Clear the items in the cart |
+| `POST/cart/add/:product` | Add Products to the cart |
+| `POST/cart/update/:product` | Update the products in the cart such as increase quantity, decrease quntity etc. |
+| `POST/cart/clear` | Clear the items in the cart |
 
